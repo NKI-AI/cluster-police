@@ -1,0 +1,10 @@
+[Unit]
+Description=Cluster Police Service
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/your/police.py
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

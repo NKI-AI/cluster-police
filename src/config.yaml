@@ -1,0 +1,14 @@
+blacklisted_commands:  # These are never allowed to run
+  - vscode_server
+
+whitelisted_commands:
+  - rsync
+  - ssh
+  - scp
+  - git
+  - srun
+  - sjob
+  - scancel
+  - squeue
+  - sbatch
+  - sinfo
